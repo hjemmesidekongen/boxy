@@ -1,4 +1,4 @@
-$boxy-spacing-left-right: floor( ( $grid-gutter-width / 2 ) );
+$boxy-spacing-left-right: $grid-gutter-width;
 
 // Heading
 $boxy-heading-spacing-top-bottom: 5px;
