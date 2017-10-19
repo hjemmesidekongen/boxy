@@ -1,0 +1,18 @@
+{
+  "name": "boxy",
+  "version": "1.0.0",
+  "description": "Beatiful, flexible and easy-to-use box concept.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjemmesidekongen/boxy.git"
+  },
+  "author": "Morten Nissen <mail@hjemmesidekongen.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hjemmesidekongen/boxy/issues"
+  },
+  "homepage": "https://github.com/hjemmesidekongen/boxy#readme"
+}

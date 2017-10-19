@@ -1,0 +1,94 @@
+// |--------------------------------------------------------------------------
+// | Boxy
+// |--------------------------------------------------------------------------
+// |
+// | This file contains styles for the following:
+// | - .boxy
+// |
+
+// --------------------------------------------------
+// Variables
+// --------------------------------------------------
+
+@import "variables";
+
+// --------------------------------------------------
+// Mixins
+// --------------------------------------------------
+
+@import "mixins";
+
+// --------------------------------------------------
+// Styling
+// --------------------------------------------------
+
+.boxy {
+    margin-bottom: @grid-gutter-width;
+}
+
+.boxy__heading {
+    padding: @boxy-heading-spacing-top-bottom @boxy-spacing-left-right;
+    
+    border: @boxy-heading-border;
+    background-color: @boxy-heading-background-color;
+}
+.boxy__heading__title {
+	margin: 0;
+	padding: 0;
+	
+	color: @boxy-heading-title-color;
+}
+
+.boxy__body {
+    padding: @boxy-body-spacing-top-bottom @boxy-spacing-left-right;
+    
+    border: @boxy-body-border;
+    background-color: @boxy-body-background-color;
+}
+
+.boxy__footer {
+    padding: @boxy-footer-spacing-top-bottom @boxy-spacing-left-right;
+    
+    text-align: center;
+
+    border: @boxy-footer-border;
+    background-color: @boxy-footer-background-color;
+}
+
+// --------------------------------------------------
+// Variants
+// --------------------------------------------------
+
+// --------------------------------------------------
+// Responsive
+// --------------------------------------------------
+
+// Mobile - and up
+@media @breakpoint-mobile-and-up {}
+
+// Mobile - only
+@media @breakpoint-mobile-only {}
+
+// Tablet - and up
+@media @breakpoint-tablet-and-up {}
+
+// Tablet - only
+@media @breakpoint-tablet-only {}
+
+// Desktop - and up
+@media @breakpoint-desktop-and-up {}
+
+// Desktop - only
+@media @breakpoint-desktop-only {}
+
+// Large desktop - and up
+@media @breakpoint-large-desktop-and-up {}
+
+// Print
+@media print {}
+
+// Touch
+.touchevents {}
+
+// No touch
+.no-touchevents {}
