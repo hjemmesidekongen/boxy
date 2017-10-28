@@ -1,18 +1,18 @@
-$boxy-spacing-left-right: $grid-gutter-width;
+$boxy-spacing-left-right: $grid-gutter-width !default;
 
 // Heading
-$boxy-heading-spacing-top-bottom: 5px;
-$boxy-heading-border: 0;
-$boxy-heading-background-color: transparent;
+$boxy-heading-spacing-top-bottom: 5px !default;
+$boxy-heading-border: 0 !default;
+$boxy-heading-background-color: transparent !default;
 
-$boxy-heading-title-color: $headings-color;
+$boxy-heading-title-color: $headings-color !default;
 
 // Body
-$boxy-body-spacing-top-bottom: 10px;
-$boxy-body-border: 1px solid $border-color;
-$boxy-body-background-color: $body-bg-secondary;
+$boxy-body-spacing-top-bottom: 10px !default;
+$boxy-body-border: 1px solid $border-color !default;
+$boxy-body-background-color: $body-bg-secondary !default;
 
 // Footer
-$boxy-footer-spacing-top-bottom: 10px;
-$boxy-footer-border: 0;
-$boxy-footer-background-color: transparent;
+$boxy-footer-spacing-top-bottom: 10px !default;
+$boxy-footer-border: 0 !default;
+$boxy-footer-background-color: transparent !default;
